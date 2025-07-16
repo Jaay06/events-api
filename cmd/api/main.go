@@ -20,6 +20,9 @@ import (
 // @name Authorization
 // @description Enter your bearer token in the format **Bearer &lt; token&gt;**
 
+// Apply the security definations to your endpoint
+// @security BearerAuth
+
 type application struct {
 	port      int
 	jwtSecret string
